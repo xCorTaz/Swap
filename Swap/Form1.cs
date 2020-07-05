@@ -272,7 +272,7 @@ namespace Swap
                 bool flag = Conversions.ToBoolean(RuntimeHelpers.GetObjectValue(this.swap(this.threadbox.Text)));
                 if (flag)
                 {
-                    MessageBox.Show("- Moved : @" + this.Targetbox.Text, -"@ak.p5, @1337abood", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show("- Moved : @" + this.Targetbox.Text, "-@ak.p5, @1337abood", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     this.running = false;
                 }
                 else
